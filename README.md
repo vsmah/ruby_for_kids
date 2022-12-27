@@ -1,1 +1,1 @@
-# ruby_for_kids
+# ruby_for_kids_book
