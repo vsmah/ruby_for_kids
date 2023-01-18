@@ -4,5 +4,5 @@
 git status\
 git add file_name\
 git commit -m "short description"\
-git push\ 
+git push \
 git add .
