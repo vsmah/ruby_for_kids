@@ -8,14 +8,10 @@ else
 	puts "nema vody"
 end
 
-if tysk_vody > 50
-	puts "warning! tysk vody greater than 50. It is #{tysk_vody}"
+if tysk_vody < 50 || tysk_vody > 50
+	puts "warning! tysk_vody ne 50! it is #{tysk_vody}."
 	tysk_vody = 50
-	puts "tysk vody now: #{tysk_vody}"
-elsif tysk_vody < 50
-	puts "warning! tysk vody lower than 50. It is #{tysk_vody}"
-	tysk_vody = 50
-	puts "tysk vody now: #{tysk_vody}"
+	puts "tysk_vody now: #{tysk_vody}"
 else
-	puts "tysk vody #{tysk_vody} (Yraaaaaaaaaaaaaa)"
-end 
+	puts "tysk_vody #{tysk_vody} (Yraaaaaaaaaaaaaa!)"
+end
