@@ -8,10 +8,6 @@ else
 	puts "nema vody"
 end
 
-if tysk_vody != 50
+unless tysk_vody == 50
 	puts "warning! tysk_vody ne 50! it is #{tysk_vody}."
-	tysk_vody = 50
-	puts "tysk_vody now: #{tysk_vody}"
-else
-	puts "tysk_vody #{tysk_vody} (Yraaaaaaaaaaaaaa!)"
 end
