@@ -1,4 +1,4 @@
-class bard
+class Bard
 
   def initialize(name)
     @name = name
