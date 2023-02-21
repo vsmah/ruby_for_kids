@@ -4,7 +4,7 @@ class Bard
     @name = name
   end
 
-  def acquantance
+  def greeting
     puts "My name #{@name}!"
   end
 
