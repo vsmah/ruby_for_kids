@@ -32,7 +32,7 @@ class Guardian_dog < Dog
   end
 
   def attack
-  	puts "U get #{power} damage"
+  	puts "U get #{rand(power)} damage"
   end
 end
 
