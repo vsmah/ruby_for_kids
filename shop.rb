@@ -9,3 +9,7 @@ end
 class Shop
   include Bucket
 end
+
+class Shop1
+  extend Bucket
+end
