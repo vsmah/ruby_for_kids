@@ -1,4 +1,4 @@
-require "./Paint"
+require "./paint"
 
 class Feed
   def give
