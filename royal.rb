@@ -1,5 +1,5 @@
 def king?(man)
-  if men == "king"
+  if man == "king"
   	puts "royal family"
   else 
   	puts "not royal family"
@@ -7,7 +7,7 @@ def king?(man)
 end
 
 def queen?(woman)
-  if queen == "woman"
+  if woman == "woman"
 	puts "royal family"
   else
   	puts "not royal family"
