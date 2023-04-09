@@ -9,3 +9,4 @@ git add .\
 git branch [branchname]\
 git checkout -b [branchname/git switch]\
 git merge [branchname that u want to be merge]
+git rebase [branchname]
